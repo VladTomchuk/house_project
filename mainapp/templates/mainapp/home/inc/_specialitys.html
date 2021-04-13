@@ -1,0 +1,76 @@
+{% load static i18n %}
+{% load static %}
+
+
+<div class="row">
+    <div class="col-12 p-0">
+        <div class="row" id="special-line-reverse">
+            <div class="special-line col-12 col-md-4">
+                <svg height="40" width="100%">
+                    <line x1="0" y1="50%" x2="100%" y2="50%"/>
+                </svg>
+            </div>
+            <div class="special-header col-12 col-md-8 d-flex align-items-center">
+                <h2>{% trans "Features of our company" %}</h2>
+            </div>
+        </div>
+    </div>
+    <div class="special-about col-12 col-md-6">
+        <div class="row">
+            <div class="col-12">
+                <h5>
+                    {% blocktrans trimmed %}
+                        You can send a request or ask us a question in the form provided below.
+                    {% endblocktrans %}
+                </h5>
+            </div>
+            <div class="special-contact-btn col-12">
+                <a class="btn btn-nav " href="{% url 'contacts' %}">
+                    {% trans "Contact" %}
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-6">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="special-card left">
+                    <div class="ImgBx">
+                        <img class="special-svg-left" src="{% static 'houseprojectteam/images/mission.svg' %}">
+                        <h5>{% trans "Purpose above all" %}</h5>
+                    </div>
+                    <p class="mt-3">
+                        {% blocktrans trimmed %}
+                            To set and achieve goals is our professional skill developed by many years of experience.
+                        {% endblocktrans %}
+                    </p>
+                </div>
+                <div class="special-card left">
+                    <div class="ImgBx">
+                        <img class="special-svg-left" src="{% static 'houseprojectteam/images/support.svg' %}" alt="">
+                        <h5>{% trans "Continuous support" %}</h5>
+                    </div>
+                    <p class="mt-3">
+                        {% blocktrans trimmed %}
+                            Quick feedback, dialogue with clients at all stages of work helps to take into account all
+                            your wishes in the implementation of the project.
+                        {% endblocktrans %}
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 d-flex align-items-center">
+                <div class="special-card right">
+                    <div class="ImgBx">
+                        <img class="special-svg-right" src="{% static 'houseprojectteam/images/time.svg' %}">
+                        <h5>{% trans "As soon as possible" %}</h5>
+                    </div>
+                    <p class="mt-3">
+                        {% blocktrans trimmed %}
+                            We believe and prove in practice that working quickly without losing quality is possible!
+                        {% endblocktrans %}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

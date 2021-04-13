@@ -1,0 +1,42 @@
+{% load static %}
+{% load i18n %}
+
+<div class="row">
+    <div class="reformas-title col-12">
+        <h2>{% trans 'Get the best renovation for your home' %}</h2>
+    </div>
+    <div class="LetsOrderText col-12 col-md-7 col-lg-7">
+        <div class="foot_logo">
+            <a href="{% url 'home' %}">
+                <img src="{% static 'houseprojectteam/images/HouseP.png' %}" width="100%">
+            </a>
+        </div>
+        <h5>{% trans 'Repairs and renovation experts' %}</h5>
+        <p>{% trans 'Order now the calculation of the cost of repairs and renovation, free, fast, and without any obligation.' %}</p>
+    </div>
+    <div class="orderForm col-12 col-md-5 col-lg-4">
+        <h5>{% trans 'Request a quote for your project' %}</h5>
+        <form method="post">
+            {% csrf_token %}
+            <div class="row">
+                <div class="col-12 form-group">
+                    <input class="form-control" type="text" name="message-name" placeholder='{% trans "Name" %}'
+                           required>
+                </div>
+                <div class="col-12 form-group">
+                    <input class="form-control" type="email" name="message-email"
+                           placeholder='{% trans "Email" %}'
+                           required>
+                </div>
+                <div class="col-12 form-group">
+                    <input class="form-control" type="tel" name="message-phone"
+                           placeholder='{% trans "Telephone" %}' required>
+                </div>
+                <div class="form-group" style="margin: 2% auto;">
+                    <input class="btn btn-nav" type="submit" style="padding: 10px;"
+                           value='{% trans "Send" %}'>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

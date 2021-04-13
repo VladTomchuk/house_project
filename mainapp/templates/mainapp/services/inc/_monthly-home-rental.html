@@ -1,0 +1,31 @@
+{% load static i18n %}
+{% load static %}
+
+
+<div class="service-type col-12">
+    <div class="row rew">
+        <div class="service-type col-12 col-md-6">
+            <div class="service-header">
+                <h2>{% trans 'Monthly Home Rental' %}</h2>
+                <div class="service-text">
+                    <p>
+                        {% blocktrans trimmed %}
+                            Our team also manages monthly home rentals. Here we are speaking about short-term rentals,
+                            but always longer than 32 days. In this case, we search for a specific profile of tenants,
+                            usually businessmen who travel for work and look for fully furnished, ready-to-move-in
+                            houses or flats.
+                            This type of contracts should not be confused with vacation rentals, as these do not require
+                            special
+                            permits by the Barcelona City Council.
+                        {% endblocktrans %}
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="service-type col-12 col-md-6">
+            <div class="service-img">
+                <img src="{% static 'houseprojectteam/images/alquiler-30-dias.jpg' %}" style="width: 100%;" alt="">
+            </div>
+        </div>
+    </div>
+</div>

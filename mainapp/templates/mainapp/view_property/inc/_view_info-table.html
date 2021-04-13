@@ -1,0 +1,43 @@
+{% load static %}
+{% load i18n %}
+
+
+<table>
+    <tr>
+        <td><h5>{% trans 'Deal' %}:</h5></td>
+        <td>
+            <h5>{{ property_item.deal }}</h5>
+        </td>
+    </tr>
+    <tr>
+        <td><h5>{% trans 'Price' %}:</h5></td>
+        <td>
+            <h5>${{ property_item.price }}</h5>
+        </td>
+    </tr>
+    <tr>
+        <td><h5>{% trans 'Room' %}:</h5></td>
+        <td>
+            <h5>{{ property_item.rooms }}</h5>
+        </td>
+    </tr>
+    <tr>
+        <td><h5>{% trans 'Bathroom' %}:</h5></td>
+        <td>
+            <h5>{{ property_item.bathroom }}</h5>
+        </td>
+    </tr>
+    <tr>
+        <td><h5>{% trans 'Stage' %}:</h5></td>
+        <td>
+            <h5>{{ property_item.stage }}</h5>
+        </td>
+    </tr>
+    <tr>
+        <td><h5>{% trans 'Square' %}:</h5></td>
+        <td>
+            <h5>{{ property_item.sq }}</h5>
+        </td>
+    </tr>
+
+</table>

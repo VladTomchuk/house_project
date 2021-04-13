@@ -1,0 +1,49 @@
+{% load static %}
+{% load i18n %}
+
+<div id="filter-bar-modal" class="col-lg-12 col-md-12 col-12 ">
+    <button type="button" class="btn btn-nav" data-toggle="modal" data-target="#myModal">
+        {% trans 'Filter' %}
+    </button>
+</div>
+{#        Modal view for ordering visit the flat#}
+
+<div class="modal" id="myModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h5 class="modal-title">
+                    {% trans 'Filter of proporties' %}
+                </h5>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <form class="filter-field" method="get">
+                <div>
+                    <div class="row filtered-bar">
+                        <div class="col-12 col-md-3 fil-feald">
+                            <h5>{% trans 'Deal' %}</h5>
+                            {{ filtered_propertys.form.deal }}
+                        </div>
+                        <div class="col-12 col-md-3 fil-feald">
+                            <h5>{% trans 'Province' %}</h5>
+                            {{ filtered_propertys.form.province }}
+                        </div>
+                        <div class="col-12 col-md-3 fil-feald">
+                            <h5>{% trans 'Price min.' %}</h5>
+                            {{ filtered_propertys.form.price__gt }}
+                        </div>
+                        <div class="col-12 col-md-3 fil-feald">
+                            <h5>{% trans 'Price max.' %}</h5>
+                            {{ filtered_propertys.form.price__lt }}
+                        </div>
+                    </div>
+                    <div>
+                        <input class="btn btn-nav" type="submit" value="{% trans 'Filter' %}">
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>

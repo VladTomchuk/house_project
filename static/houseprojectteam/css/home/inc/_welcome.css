@@ -1,0 +1,98 @@
+@media only screen and (max-width: 576px) {
+    .TeamDesk {
+        margin-top: 5%;
+        padding:5% 0;
+        border-radius: 50px 50px 50px 0;
+    }
+
+    .TextContent {
+        padding: 0 3%;
+    }
+
+    .TextContent h2 {
+        text-align: center;
+        padding: 8% 2%;
+    }
+
+    .TextContent p {
+        padding: 2%;;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 1200px) {
+    .TeamDesk {
+        padding: 2% 15%;
+        border-radius: 0 130px 40px 0;
+    }
+
+    .TextContent {
+        padding: 0;
+    }
+
+    .TextContent p {
+        margin-left: -20%;
+        padding: 5%;
+    }
+
+    .TextContent h2 {
+        margin-bottom: 0;
+        padding: 10% 10% 5% 5%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .TeamDesk {
+        padding: 5%;
+        border-radius: 0 40px 40px 0;
+    }
+
+    .TextContent {
+        padding: 0;
+    }
+
+    .TextContent p {
+        margin-left: -10%;
+        padding: 2% 10% 2% 2%;
+    }
+
+    .TextContent h2 {
+        margin-bottom: 0;
+        padding: 10% 10% 5% 5%;
+    }
+}
+
+.TeamDesk {
+    /*background-color: var(--gray_main);*/
+    border:1px solid var(--title);
+    border-left: none !important;
+}
+
+.TextContent {
+    color: #f3f5f4;
+    align-items: center;
+    display: flex;
+}
+
+
+.TextContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.TextContent p {
+    background-color: var(--background);
+    letter-spacing: 1px;
+    text-indent: 20px;
+}
+
+.TextContent h2 {
+    width: 100%;
+    border-bottom: 1px solid var(--title);
+    color: var(--title);
+}
+
+.TextContent ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

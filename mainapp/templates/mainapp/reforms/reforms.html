@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load static i18n %}
+
+{% block title %}
+    {% trans 'Reforms' %}
+{% endblock %}
+
+
+{% block content %}
+
+    <div class="container-fluid">
+        <div class="ReformasIntegrales">
+            {% include './inc/_reformas-integrales.html' %}
+        </div>
+        <div class="OurReforms">
+            {% include './inc/_our-reforms.html' %}
+        </div>
+        <div class="ReformFilms">
+            {% include './inc/_reform-films.html' %}
+        </div>
+        <div class="ReformCalcForm">
+            {% include './inc/_reform-calc-form.html' %}
+        </div>
+    </div>
+
+{% endblock %}

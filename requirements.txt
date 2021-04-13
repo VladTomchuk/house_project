@@ -1,0 +1,12 @@
+asgiref==3.2.10
+Django==3.1
+django-filter==2.3.0
+django-model-utils==4.0.0
+django-modeltranslation==0.16
+django-translation-flags==1.0.6
+django-active-link==0.1.7
+Pillow==7.2.0
+pytz==2020.1
+six==1.15.0
+sqlparse==0.3.1
+

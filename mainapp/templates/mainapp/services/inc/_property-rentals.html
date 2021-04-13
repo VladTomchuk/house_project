@@ -1,0 +1,25 @@
+{% load static i18n %}
+{% load static %}
+
+
+<div class="service-type col-12 col-md-6">
+    <div class="service-img">
+        <img src="{% static 'houseprojectteam/images/Alquiler.jpg' %}" style="width: 100%;" alt="">
+    </div>
+</div>
+<div class="service-type col-12 col-md-6">
+    <div class="service-header">
+        <h2>{% trans 'Property Rentals in Barcelona' %}</h2>
+        <div class="service-text">
+            <p>
+                {% blocktrans trimmed %}
+                    Residential and commercial properties rental is one of our key services. We work with a wide
+                    network of personal contacts, to find a right tenant in the shortest possible time.
+                    Our service includes administrative and tax law advice for both the tenant and the landlord.
+                    We guide our clients throughout the rental process. Our team takes care of all the complex paperwork
+                    and negotiates the conditions achieving a satisfactory result for all parties involved.
+                {% endblocktrans %}
+            </p>
+        </div>
+    </div>
+</div>

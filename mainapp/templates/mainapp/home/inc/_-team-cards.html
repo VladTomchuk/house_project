@@ -1,0 +1,43 @@
+{% load static i18n %}
+{% load static %}
+
+<div class="row">
+    <div class="team-card col-12 col-md-12 col-xl-6">
+        <div class="img-team-card">
+             <img src="{% static 'houseprojectteam/images/Anatoliy.jpg' %}">
+        </div>
+        <div class="infoHover">
+            <div>
+                <div class="contact-ceo row ">
+                    <a class="col-4" href="#" target="_blank"></a>
+                    <a class="col-4" href="#" target="_blank"></a>
+                    <a class="col-4" href="#" target="_blank"></a>
+                </div>
+                <h5>{% trans 'Anatolii Polyvian' %}</h5>
+                <p>{% trans 'Cofounder' %}</p>
+            </div>
+        </div>
+    </div>
+    <div class="team-card col-12 col-md-12 col-xl-6">
+        <div class="img-team-card">
+            <img src="{% static 'houseprojectteam/images/Max1.jpg' %}">
+        </div>
+        <div class="infoHover">
+            <div class="infoHoverBody">
+                <div class="contact-ceo row ">
+                    <a class="social-link col-4" href="https://www.instagram.com/houseproject.team/" target="_blank">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                    <a class="social-link col-4" href="https://www.facebook.com/houseproject.team" target="_blank">
+                        <i class="fa fa-facebook-f"></i>
+                    </a>
+                    <a class="social-link col-4" href="https://www.linkedin.com/in/maksym-polyvian-106696147" target="_blank">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                </div>
+                <h5>{% trans 'Maksym Polyvian' %}</h5>
+                <p>CEO</p>
+            </div>
+        </div>
+    </div>
+</div>

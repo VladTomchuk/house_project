@@ -1,0 +1,26 @@
+{% load static i18n %}
+{% load static %}
+
+
+<div class="service-type col-12 col-md-6">
+    <a id="services-design"></a>
+    <div class="service-img">
+        <img src="{% static 'houseprojectteam/images/interior-design.jpg' %}" style="width: 100%;" alt="">
+    </div>
+</div>
+<div class="service-type col-12 col-md-6">
+    <div class="service-header">
+        <h2>{% trans 'Interior Design' %}</h2>
+        <div class="service-text">
+            <p>
+                {% blocktrans trimmed %}
+                    We develop a wide array of interior design projects for both commercial and residential properties.
+                    Our goal is to create a unique experience of the interior space in accordance with its dimensions,
+                    technical parameters, end-use, and our clients’ individual preferences.
+                    We always start with a thorough previous analysis and seek a balance between functionality,
+                    aesthetics and structural factors. Our mission is to give shape to the visions of our clients.
+                {% endblocktrans %}
+            </p>
+        </div>
+    </div>
+</div>

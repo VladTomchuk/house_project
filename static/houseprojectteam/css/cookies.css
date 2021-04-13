@@ -1,0 +1,13 @@
+.cc_dialog.simple {
+    max-width:100% !Important;
+}
+
+.dark.cc_dialog {
+    background-color: var(--background) !Important;
+    color: var(--white_main) !Important;
+}
+
+.dark.cc_dialog button.cc_b_ok {
+    color: var(--background) !Important;
+    background-color: var(--title_shadow) !Important;
+}

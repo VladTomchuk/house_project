@@ -1,0 +1,31 @@
+@media only screen and (max-width: 576px) {
+    .Reform-view {
+        padding: 1%;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .Reform-view {
+        padding: 5% 0;
+    }
+}
+
+#carouselExampleIndicators,
+#reform-carouselExampleIndicators {
+    display: flex;
+    align-items: center;
+    padding: 3%;
+}
+
+.Reform-view{
+    padding: 5% 0;
+}
+#reform-carouselExampleIndicators{
+    display: flex;
+    align-items: center;
+}
+.reformed{
+    text-align: center;
+    color: var(--title);
+    padding-bottom: 5%;
+}

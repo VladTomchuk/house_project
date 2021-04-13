@@ -1,0 +1,78 @@
+@media only screen and (max-width: 576px) {
+    .TeamDesk {
+        padding: 0;
+    }
+
+    .TextContent {
+        padding: 0 3%;
+    }
+
+    .TextContent h2 {
+        text-align: center;
+        padding: 8% 2%;
+    }
+
+    .TextContent p {
+        padding: 2%;;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 1200px) {
+    .TeamDesk {
+        padding: 0 5%;
+    }
+
+    .TextContent {
+        padding: 0;
+    }
+
+    .TextContent p {
+        padding: 5% 20% 5% 0;
+    }
+
+    .TextContent h2 {
+        padding: 10% 15% 10% 0;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .TextContent {
+        padding: 0;
+    }
+
+    .TextContent p {
+        padding: 5% 15% 5% 0;
+    }
+
+    .TextContent h2 {
+        padding: 10% 15% 5% 0;
+    }
+}
+
+.TextContent {
+    color: #f3f5f4;
+    align-items: center;
+    display: flex;
+}
+
+
+.TextContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.TextContent p {
+    letter-spacing: 1px;
+    text-indent: 20px;
+}
+
+.TextContent h2 {
+    border-bottom: 1px solid #e23c3c;
+    color: #e23c3c;
+}
+
+.TextContent ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,27 @@
+{% load static %}
+{% load i18n %}
+
+<div class="row">
+    <div class="reformas-title col-12">
+        <h2>{% trans 'Integral Renovations' %}</h2>
+    </div>
+    <div class="reformas-img col-12 col-md-6">
+        {% include './_reformas-integrales-carousel.html' %}
+    </div>
+    <div class="reformas-describ col-12 col-md-6">
+        <p>
+            {% blocktrans trimmed %}
+                At the moment of planning and creation of each of our projects we think about construction,
+                design, and implementation of the most sophisticated, relaxed and cosy interior ideas of our
+                clients.We are always aimed at creating living spaces that will inspire and comfort the inhabitants.
+                We use each opportunity to highlight architectural details and elements of the object to conserve
+                and underline the beauty of the bright ideas. At the same time, we give priority to the client’s
+                needs and preferences, as we believe that every home is a reflection of the owner’s personality.
+                We offer ourselves to realise all the client’s ideas and demands in the purest, lightweight and
+                clean way.Each of our projects is designed to be friendly to the environment. One of our main
+                principles is that our work has to contribute to the creation of more sustainable life and a
+                better world.
+            {% endblocktrans %}
+        </p>
+    </div>
+</div>

@@ -1,0 +1,25 @@
+{% load static %}
+{% load i18n %}
+
+<div class="row">
+    <div class="reformas-title col-12">
+        <h2>{% trans 'Examples of our reforms' %}</h2>
+    </div>
+    {% for reforms in all_reforms %}
+        <div class="X col-lg-4 col-md-4 col-12">
+            <a class="card_hover" href="{{ reforms.get_absolute_url }}" target="_blank">
+                <div class="card">
+                    <div class="_hidden">
+                        <img class="card-img-top" src="{{ reforms.img.url }}" width="100%" alt="Main photo">
+                    </div>
+                    <div class="card-body">
+{#                        <h5 class="location">{{ reforms.name }}</h5>#}
+                        <h5 class="location">{{ reforms.country }}</h5>
+                        <p class="card-title">{{ reforms.city }}</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    {% endfor %}
+
+</div>

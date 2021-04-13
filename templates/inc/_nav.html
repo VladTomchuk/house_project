@@ -1,0 +1,80 @@
+{% load flags %}
+{% load static i18n %}
+{% load active_link_tags %}
+{% get_current_language as language %}
+
+<nav id="nav" class="navbar navbar-expand-lg sticky-top">
+    <div id="logo">
+        <a href="{% url 'home' %}">
+            <img src="{% static 'houseprojectteam/images/HouseP.png' %}" width="100%">
+        </a>
+
+    </div>
+    <div class="nav_phone">
+        <a href="tel:+34631710226">
+            <img src='{% static "houseprojectteam/images/phone.svg" %}' alt="">
+        </a>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"
+            onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-around" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+
+            <li class="">
+                <ul class="social-nav-bar">
+                    <li class="btn-nav social-link">
+                        <a href="https://www.instagram.com/houseproject.team/" target="_blank">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="btn-nav social-link">
+                        <a href="https://www.facebook.com/houseprojectbcn" target="_blank">
+                            <i class="fa fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="btn-nav social-link">
+                        <a href="https://www.linkedin.com/in/maksym-polyvian-106696147" target="_blank">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="{% active_link 'home' css_class='page-active' strict=True %}" href="{% url 'home' %}">
+                    {% trans "Home" %}
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="{% active_link 'services' css_class='page-active' strict=True %}" href="{% url 'services' %}">
+                    {% trans "Services" %}
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="{% active_link 'reforms' css_class='page-active' strict=True %}" href="{% url 'reforms' %}">
+                    {% trans "Reforms" %}
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="{% active_link 'property' css_class='page-active' strict=True %}" href="{% url 'property' %}">
+                    {% trans "Property" %}
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="{% active_link 'contacts' css_class='page-active' strict=True %}" href="{% url 'contacts' %}">
+                    {% trans "Contacts" %}
+                </a>
+            </li>
+            <li class="choose-lang">
+                <a href="#"><img src='{% static "houseprojectteam/images/lang.svg" %}' alt=""></a>
+                <ul class="dropdown">
+                    <li>{% languages li_class='flags-li' a_class='flags-a' %}</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>

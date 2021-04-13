@@ -1,0 +1,118 @@
+@import url('home/_home.css');
+@import url('nav/_nav.css');
+@import url('services/_services.css');
+@import url('property/inc/_view_property.css');
+@import url('_feedback.css');
+@import url('nav/_footer.css');
+
+@import url('property/_property.css');
+@import url('contacts/_contacts.css');
+@import url('reforms/_reforms.css');
+@import url('reforms/inc/_view-our-reforms.css');
+
+@import url('_contact-form.css');
+@import url('mail/_webpage-message.css');
+@import url('./cookies.css');
+
+:root{
+    --title: #eebf00;
+    --title_shadow: #fbd640e0;
+    --white_main: #fdfdfc;
+    --background: #222222;
+    --blue_shadow: #384369;
+}
+
+body, html {
+    scroll-padding-top: 120px;
+    background-color:var(--background);
+    color: var(--white_main);
+}
+
+@media only screen and (max-width: 576px) {
+    body, html {
+        margin-bottom: 450px;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    body, html {
+        margin-bottom: 150px;
+    }
+}
+
+@-moz-document url-prefix() {
+    @media only screen and (min-width: 576px) {
+        body, html {
+            margin-bottom: 300px;
+        }
+    }
+
+    :root{
+        scrollbar-color: rgb(238 191 0) rgb(46,54,69) !important;
+        scrollbar-width: thin !important;
+    }
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/Gilroy-Light.otf);
+}
+
+.row {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+i {
+    font-family: fontawesome !important;
+}
+
+p {
+    margin: 0;}
+ul {padding: 0;}
+i {font-family: fontawesome !important;}
+p {margin: 0;
+    letter-spacing: 1px;
+}
+
+h2, h5, a, p {
+    font-family: myFirstFont;
+}
+
+a:hover {
+    text-decoration-line: none;
+}
+
+
+/*--------------------scroll-----------------*/
+::-webkit-scrollbar {
+    width: 10px;
+    height: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--white_main);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--title);
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+    background-size: contain;
+}
+
+/*----https://codepen.io/sosuke/pen/Pjoqqp----*/

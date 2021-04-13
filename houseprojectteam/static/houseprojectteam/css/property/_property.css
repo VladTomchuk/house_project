@@ -1,0 +1,132 @@
+.property-header h2{
+    color: #e23c3c;
+}
+ul.pagination {
+    margin-top: 5%;
+}
+
+li.page-item.active a.page-link {
+    color: #ef5656;;
+    background-color: #111010;
+    box-shadow: 0px 0px 5px 1px #e23c3c;
+    border-color: #ef5656;
+}
+
+a.page-link {
+    color: #f3f5f4;
+    background-color: #111010;
+}
+
+a.page-link:hover {
+    color: #ef5656;;
+    background-color: #111010;
+    box-shadow: 0px 0px 5px 1px #e23c3c;
+    border-color: #ef5656;
+}
+
+/*---filter-form-----*/
+#filter-bar {
+    margin-bottom: 5%;
+}
+
+#filter-bar-modal {
+    margin-bottom: 5%;
+}
+
+@media only screen and (max-width: 576px) {
+    .property-header {
+        margin: 5% 0;
+    }
+
+    select#id_deal,
+    select#id_province,
+    input#id_price__gt,
+    input#id_price__lt {
+        height: 10vw;
+    }
+
+    .fil-feald h5 {
+        margin: 5% 0;
+    }
+
+    .filter-field {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #filter-bar {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .property-header {
+        margin: 5% 0;
+    }
+
+    select#id_deal,
+    select#id_province,
+    input#id_price__gt,
+    input#id_price__lt {
+        height: 4vw;
+    }
+
+    .fil-feald h5 {
+        margin: 10% 0;
+    }
+
+    .filter-field {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #filter-bar-modal {
+        display: none;
+    }
+}
+
+label {
+    display: none;
+}
+
+select#id_deal,
+select#id_province,
+input#id_price__gt,
+input#id_price__lt {
+    text-align: center;
+    width: 100%;
+    color: #f3f5f4;
+    background-color: #111010;
+    border: 1px solid #f3f5f4;
+    transition: ease 0.5s;
+    padding: 0 0 0 10%;
+}
+
+select#id_deal:hover,
+select#id_province:hover,
+input#id_price__gt:hover,
+input#id_price__lt:hover {
+    color: #ef5656;
+    box-shadow: 0px 0px 5px 1px #e23c3c;
+    border-color: #ef5656;
+}
+
+select#id_deal:focus,
+select#id_province:focus,
+input#id_price__gt:focus,
+input#id_price__lt:focus {
+    background-color: #111010;
+    color: #ef5656;
+    box-shadow: 0px 0px 5px 1px #e23c3c;
+    border-color: #ef5656;
+}
+
+.fil-feald {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

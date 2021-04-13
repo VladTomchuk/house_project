@@ -1,0 +1,113 @@
+@import url('./inc/_flats.css');
+@import url('./inc/_team-cards.css');
+@import url('./inc/_main_video.css');
+@import url('./inc/_our_services.css');
+@import url('./inc/_specialities.css');
+@import url('./inc/_welcome.css');
+
+#MainVideo {
+    padding: 5% 10%;
+}
+
+#Welcome {
+    padding: 5% 0;
+    display: flex;
+    align-items: center;
+}
+
+#OurServices {
+    padding: 5% 0 0;
+}
+
+#Flats {
+    padding: 5% 0;
+}
+
+@media only screen and (max-width: 576px) {
+    .feedback.carousel-inner {
+        height: 300px;
+    }
+
+    #OurServices {
+        margin: 10% 0 5%;
+        padding: 0 5%;
+    }
+
+    #OurSpecialitys {
+        padding: 20% 0;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 1200px) {
+    p, .btn-nav {
+        font-size: 1.5vw;
+    }
+
+    h2 {
+        font-size: 2.5vw;
+    }
+
+    h5 {
+        font-size: 2vw;
+    }
+
+    #OurSpecialitys {
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    p, .btn-nav {
+        font-size: 1vw;
+    }
+
+    h2 {
+        font-size: 2.5vw;
+    }
+
+    h5 {
+        font-size: 1.5vw;
+    }
+
+    #OurSpecialitys {
+        padding: 0 5% 0 0;
+    }
+}
+
+span.form-control {
+    padding: 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+span.form-control select,
+span.form-control input {
+    height: 100%;
+    border: none;
+    text-align: center;
+}
+
+span.form-control label {
+    display: none;
+}
+
+.btn-nav {
+    margin: 5% 0;
+    width: 145px;
+    color: var(--title);
+    letter-spacing: 1px;
+    box-shadow: 0 0 5px 1px var(--title);
+    border-color: var(--title_shadow);
+    transition: all 0.2s ease;
+}
+
+.btn-nav:hover {
+    color: #f3f5f4;
+    box-shadow: 0 0 5px 1px #f3f5f4;
+    border-color: #f3f5f4;
+}
+
+.btn:focus {
+    box-shadow: none;
+}

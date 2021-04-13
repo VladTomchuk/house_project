@@ -1,0 +1,30 @@
+{% load static %}
+{% load i18n %}
+
+<div class="card">
+    <h2>{% trans "Contact us" %}</h2>
+    <p style="text-indent: 20px">
+        {% blocktrans trimmed %}
+            Quick feedback, dialogue with clients at all stages of work helps to take into account all your wishes in
+            the implementation of the project.
+        {% endblocktrans %}
+    </p>
+    <div class="adress">
+        <div class="icon contact-phone">
+            <img src='{% static "houseprojectteam/images/phone.svg" %}' alt="">
+            <a href="tel:+34631710226">
+                <p>+34 631 710 226</p>
+            </a>
+        </div>
+        <div class="icon contact-email">
+            <img src='{% static "houseprojectteam/images/email.svg" %}' alt="">
+            <a href="mailto:info@houseproject.team" target="_top">
+                <p>info@houseproject.team</p>
+            </a>
+        </div>
+        <div class="icon contact-address">
+            <img src='{% static "houseprojectteam/images/address.svg" %}' alt="">
+            <p>	Escultors Claperos, 10, 08018 Barcelona</p>
+        </div>
+    </div>
+</div>

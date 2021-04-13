@@ -1,0 +1,21 @@
+.view-description {
+    margin: 10% 0;
+    padding: 0;
+}
+.view-description p{
+    text-indent: 20px;
+}
+
+.view_title{
+    padding: 0 1%;
+}
+
+.view-flat-title{
+    color: #e23c3c;
+}
+
+.view_info-table {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}

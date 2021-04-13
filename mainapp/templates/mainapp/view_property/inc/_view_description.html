@@ -1,0 +1,14 @@
+{% load static %}
+{% load i18n %}
+
+
+<div class="col-12 view-description">
+    <div class="row d-flex justify-content-end">
+        <div class="col-12 col-md-3">
+            <h5>{% trans 'Description' %}:</h5>
+        </div>
+        <div class="col-12 col-md-9">
+            <p>{{ property_item.description }}</p>
+        </div>
+    </div>
+</div>

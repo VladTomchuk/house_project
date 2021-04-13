@@ -1,0 +1,134 @@
+@media only screen and (max-width: 576px) {
+    .special-contact-btn {
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    #special-line-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .special-header h2 {
+        text-align: center;
+    }
+
+    .special-about {
+        padding: 5%;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    #special-line-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .special-header {
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 1200px) {
+    .special-header h2 {
+        text-align: left;
+        margin-bottom: 10%;
+    }
+
+    .special-line {
+        padding: 0;
+    }
+
+    .special-about {
+        padding: 0 5%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .special-about {
+        padding: 5%;
+    }
+
+    .special-header h2 {
+        text-align: left;
+        margin-bottom: 8%;
+    }
+
+    .special-line {
+        padding: 0;
+    }
+}
+
+.special-about h5 {
+    margin-bottom: 5%;
+    text-indent: 20px;
+}
+
+div.special-header h2 {
+    color: var(--title);
+}
+
+div.special-about {
+    display: flex;
+    align-items: center;
+    color: #f3f5f4;
+}
+
+div .left {
+    color: var(--white_main);
+    padding: 4%;
+    /*background-color: #f3f5f4;*/
+    margin: 5% 0;
+}
+
+div .right {
+    width: 100%;
+    padding: 4%;
+    /*background-color: var(--yellow_shadow);*/
+    /*color: var(--gray_main);*/
+}
+
+div .left p, div .left h5 {
+    color: var(--white_main);
+}
+
+div .ImgBx h5 {
+    color: var(--title);
+    text-align: center;
+    margin: 0 5%;
+}
+
+.special-card p {
+    text-indent: 20px;
+}
+
+.special-card{
+    border: 1px solid var(--title);
+    border-radius: 20px;
+}
+/*img.special-svg-right {*/
+/*    width: 25%;*/
+/*    filter: invert(92%) sepia(1%) saturate(266%) hue-rotate(93deg) brightness(107%) contrast(94%);*/
+/*}*/
+
+img.special-svg-left,img.special-svg-right {
+    width: 25%;
+    filter: invert(74%) sepia(22%) saturate(5248%) hue-rotate(9deg) brightness(104%) contrast(105%);
+}
+
+.ImgBx {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-body div.ImgBx img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.special-line svg line {
+    stroke: var(--title);
+    stroke-width: 1
+}

@@ -1,0 +1,38 @@
+{% load static i18n %}
+{% load static %}
+
+
+<div class="service-type col-12">
+    <div class="row rew">
+        <div class="service-type col-12 col-md-6">
+            <div class="service-header">
+                <h2>{% trans 'Real Estate Consulting and Relocation' %}</h2>
+                <div class="service-text">
+                    <p>
+                        {% blocktrans trimmed %}
+                            The value of our service lies in saving you time and giving you a peace of mind.
+                            We understand that buying or selling a property in a foreign country can be utterly
+                            stressful,
+                            but let us assure you that it does not have to be this way.
+                            In the real estate market, experience is specifically crucial to carry out a successful
+                            transaction
+                            for all the parties. With our multidisciplinary team you will be in good hands.
+                            We provide our customers with financial, legal and tax advice and offer a complete range of
+                            real
+                            estate services: property valuation, transaction management, administrative paperwork,
+                            short and long-term rentals, to name a few. Our team specialises in both commercial and
+                            residential
+                            properties and has been awarded the AICAT certification No. XXXXXXX
+                        {% endblocktrans %}
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="service-type col-12 col-md-6">
+            <a id="services-rental"></a>
+            <div class="service-img">
+                <img src="{% static 'houseprojectteam/images/Venta.jpg' %}" style="width: 100%;" alt="">
+            </div>
+        </div>
+    </div>
+</div>

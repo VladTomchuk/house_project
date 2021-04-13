@@ -1,0 +1,778 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Español traducción!!!!!
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-25 15:11+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: mainapp/models.py:7 mainapp/models.py:27 mainapp/models.py:61
+#: mainapp/models.py:69
+msgid "Image"
+msgstr "Imagen"
+
+#: mainapp/models.py:8
+msgid "Avatar"
+msgstr "Avatar"
+
+#: mainapp/models.py:9
+#: mainapp/templates/mainapp/contacts/inc/_card_right.html:10
+#: mainapp/templates/mainapp/mail/contact-us/web-page-contact-us.html:25
+#: mainapp/templates/mainapp/mail/request_quote/web-page-request-quote.html:25
+#: mainapp/templates/mainapp/mail/valuate-property/web-page-valuate-property.html:26
+#: mainapp/templates/mainapp/mail/visit-request/web-page-visit-request.html:30
+#: mainapp/templates/mainapp/reforms/inc/_reform-calc-form.html:23
+#: mainapp/templates/mainapp/view_property/inc/_view_modal-request.html:32
+#: templates/inc/_-footer-modal.html:29
+msgid "Name"
+msgstr "Nombre"
+
+#: mainapp/models.py:10
+#, fuzzy
+#| msgid "Reforms"
+msgid "Reformed"
+msgstr "Reformas"
+
+#: mainapp/models.py:11
+msgid "Feedback"
+msgstr "Feedback"
+
+#: mainapp/models.py:12
+msgid "Country"
+msgstr "Pais"
+
+#: mainapp/models.py:13
+msgid "City"
+msgstr "Ciudad"
+
+#: mainapp/models.py:23
+msgid "Title"
+msgstr "Titular"
+
+#: mainapp/models.py:24
+#: mainapp/templates/mainapp/view_property/inc/_view_description.html:8
+msgid "Description"
+msgstr "Descripción"
+
+#: mainapp/models.py:25
+msgid "Created"
+msgstr "Creado"
+
+#: mainapp/models.py:26
+msgid "Updated"
+msgstr "Renovado"
+
+#: mainapp/models.py:28
+#: mainapp/templates/mainapp/view_property/inc/_view_info-table.html:37
+msgid "Square"
+msgstr "Cuadrado"
+
+#: mainapp/models.py:29
+#: mainapp/templates/mainapp/view_property/inc/_view_info-table.html:31
+msgid "Stage"
+msgstr "Planta"
+
+#: mainapp/models.py:30
+#: mainapp/templates/mainapp/view_property/inc/_view_info-table.html:25
+msgid "Bathroom"
+msgstr "Baño"
+
+#: mainapp/models.py:31
+#: mainapp/templates/mainapp/view_property/inc/_view_info-table.html:19
+msgid "Room"
+msgstr "Habitacion"
+
+#: mainapp/models.py:32
+#: mainapp/templates/mainapp/view_property/inc/_view_info-table.html:13
+msgid "Price"
+msgstr "Precio"
+
+#: mainapp/models.py:34
+msgid "Rent"
+msgstr "Alquilar"
+
+#: mainapp/models.py:35
+msgid "Sale"
+msgstr "Vender"
+
+#: mainapp/models.py:37
+#: mainapp/templates/mainapp/property/inc/_filter-bar-modal.html:25
+#: mainapp/templates/mainapp/property/inc/_filter-bar.html:9
+#: mainapp/templates/mainapp/view_property/inc/_view_info-table.html:7
+msgid "Deal"
+msgstr "Negocio"
+
+#: mainapp/models.py:39
+#, fuzzy
+#| msgid "Spain, Barcelona"
+msgid "Barcelona"
+msgstr "Barcelona"
+
+#: mainapp/models.py:40
+msgid "Girona"
+msgstr "Girona"
+
+#: mainapp/models.py:41
+msgid "Lleida"
+msgstr "Lleida"
+
+#: mainapp/models.py:42
+msgid "Tarragona"
+msgstr "Tarragona"
+
+#: mainapp/models.py:44
+#: mainapp/templates/mainapp/property/inc/_filter-bar-modal.html:29
+#: mainapp/templates/mainapp/property/inc/_filter-bar.html:13
+msgid "Province"
+msgstr "Provincia"
+
+#: mainapp/models.py:45
+msgid "Published"
+msgstr "Publicado"
+
+#: mainapp/models.py:54 templates/inc/_nav.html:64
+msgid "Property"
+msgstr "Propiedad"
+
+#: mainapp/models.py:55
+#, fuzzy
+#| msgid "Property"
+msgid "Propertys"
+msgstr "Propiedad"
+
+#: mainapp/templates/mainapp/contacts/inc/_card_left.html:5
+msgid "Contact us"
+msgstr "Contactanos"
+
+#: mainapp/templates/mainapp/contacts/inc/_card_left.html:7
+#: mainapp/templates/mainapp/home/inc/_specialitys.html:54
+msgid ""
+"Quick feedback, dialogue with clients at all stages of work helps to take "
+"into account all your wishes in the implementation of the project."
+msgstr ""
+"La retroalimentación rápida, el diálogo con los clientes en todas las etapas "
+"del trabajo ayuda a tener en cuenta todos sus deseos en la implementación "
+"del proyecto."
+
+#: mainapp/templates/mainapp/contacts/inc/_card_right.html:5
+msgid "Make a request"
+msgstr "Hacer una solicitud"
+
+#: mainapp/templates/mainapp/contacts/inc/_card_right.html:15
+#: mainapp/templates/mainapp/reforms/inc/_reform-calc-form.html:33
+#: mainapp/templates/mainapp/view_property/inc/_view_modal-request.html:41
+#: templates/inc/_-footer-modal.html:38
+msgid "Telephone"
+msgstr "Teléfono"
+
+#: mainapp/templates/mainapp/contacts/inc/_card_right.html:19
+#: mainapp/templates/mainapp/mail/contact-us/web-page-contact-us.html:27
+#: mainapp/templates/mainapp/mail/request_quote/web-page-request-quote.html:27
+#: mainapp/templates/mainapp/mail/valuate-property/web-page-valuate-property.html:28
+#: mainapp/templates/mainapp/mail/visit-request/web-page-visit-request.html:32
+#: mainapp/templates/mainapp/reforms/inc/_reform-calc-form.html:28
+#: mainapp/templates/mainapp/view_property/inc/_view_modal-request.html:36
+#: templates/inc/_-footer-modal.html:33
+msgid "Email"
+msgstr "Correo el."
+
+#: mainapp/templates/mainapp/contacts/inc/_card_right.html:24
+#: mainapp/templates/mainapp/mail/contact-us/web-page-contact-us.html:33
+#: mainapp/templates/mainapp/mail/valuate-property/web-page-valuate-property.html:34
+#: mainapp/templates/mainapp/mail/visit-request/web-page-visit-request.html:38
+#: mainapp/templates/mainapp/view_property/inc/_view_modal-request.html:45
+#: templates/inc/_-footer-modal.html:42
+msgid "Comment"
+msgstr "Comentario"
+
+#: mainapp/templates/mainapp/contacts/inc/_card_right.html:28
+#: mainapp/templates/mainapp/reforms/inc/_reform-calc-form.html:37
+#: mainapp/templates/mainapp/view_property/inc/_view_modal-request.html:48
+#: templates/inc/_-footer-modal.html:45
+msgid "Send"
+msgstr "Enviar"
+
+#: mainapp/templates/mainapp/home/inc/_-team-cards.html:16
+msgid "Anatolii Polyvian"
+msgstr "Anatolii Polyvian"
+
+#: mainapp/templates/mainapp/home/inc/_-team-cards.html:17
+msgid "Cofounder"
+msgstr "Cofundador"
+
+#: mainapp/templates/mainapp/home/inc/_-team-cards.html:38
+msgid "Maksym Polyvian"
+msgstr "Maksym Polyvian"
+
+#: mainapp/templates/mainapp/home/inc/_flats.html:7
+#: mainapp/templates/mainapp/home/inc/_flats.html:44
+#: mainapp/templates/mainapp/property/property.html:13
+msgid "Properties"
+msgstr "Propiedad"
+
+#: mainapp/templates/mainapp/home/inc/_flats.html:9
+msgid "Below you can see our offers for renting and selling real estate."
+msgstr ""
+"A continuación puede ver nuestras ofertas de alquiler y venta de inmuebles."
+
+#: mainapp/templates/mainapp/home/inc/_main_video.html:6
+#: mainapp/templates/mainapp/reforms/inc/_reform-films.html:6
+msgid "Our team works hard to make our customers pleased."
+msgstr ""
+"Nuestro equipo trabaja duro para que nuestros clientes estén contentos."
+
+#: mainapp/templates/mainapp/home/inc/_our_services.html:5
+#: mainapp/templates/mainapp/home/inc/_our_services.html:17
+#: templates/inc/_nav.html:54
+msgid "Services"
+msgstr "Servicios"
+
+#: mainapp/templates/mainapp/home/inc/_our_services.html:8
+msgid ""
+"For us, a personalised approach is the key to a successful collaboration. "
+"Our projects always begin with a dialogue, as we try to reflect the client’s "
+"personality in our work. In the same way, regarding our real estate "
+"services, we guide our customers individually. We prepare all the relevant "
+"information of both the property and the area w here it is located. Our "
+"mission is to achieve the best quality price relationship."
+msgstr ""
+"Para nosotros, un enfoque personalizado es la clave para una colaboración "
+"exitosa. Nuestros proyectos siempre comienzan con un diálogo, ya que "
+"intentamos reflejar la personalidad del cliente en nuestro trabajo. De la "
+"misma forma, en cuanto a nuestros servicios inmobiliarios, orientamos a "
+"nuestros clientes de forma individualizada. Preparamos toda la información "
+"relevante tanto del inmueble como de la zona donde se encuentra. Nuestra "
+"misión es lograr la mejor relación calidad precio. "
+
+#: mainapp/templates/mainapp/home/inc/_our_services.html:24
+#: mainapp/templates/mainapp/services/inc/_renovation-construction.html:13
+msgid "Renovation and Construction"
+msgstr "Reformas y construcción"
+
+#: mainapp/templates/mainapp/home/inc/_our_services.html:28
+msgid ""
+"We tailor our renovation and construction projects following the individual "
+"needs of the clients. We build cozy spaces, create functional designs, and "
+"implement solutions respecting the existing environment. We seek perfection "
+"in every detail because we want our spaces to inspire you with harmony and "
+"singularity. We manage the projects from A to Z."
+msgstr ""
+"Adaptamos nuestros proyectos de renovación y construcción siguiendo las "
+"necesidades individuales de los clientes. Construimos espacios acogedores, "
+"creamos diseños funcionales y implementamos soluciones respetando el entorno "
+"existente. Buscamos la perfección en cada detalle porque queremos que "
+"nuestros espacios te inspiren armonía y singularidad. Gestionamos los "
+"proyectos de la A a la Z. "
+
+#: mainapp/templates/mainapp/home/inc/_our_services.html:40
+#: mainapp/templates/mainapp/home/inc/_our_services.html:61
+#: mainapp/templates/mainapp/home/inc/_our_services.html:79
+#: mainapp/templates/mainapp/home/inc/_our_services.html:96
+msgid "Read more"
+msgstr "Leer mas"
+
+#: mainapp/templates/mainapp/home/inc/_our_services.html:45
+#: mainapp/templates/mainapp/services/inc/_architecture-engineering.html:9
+msgid "Architecture and Engineering"
+msgstr "Arquitectura e ingeniería"
+
+#: mainapp/templates/mainapp/home/inc/_our_services.html:49
+msgid ""
+"We take architecture smartly. Our extensive experience allows us to offer a "
+"wide range of services, such as obtaining licenses, converting commercial "
+"premises to residential, health and safety inspections, construction "
+"management, obtaining certificates of occupancy, facades rehabilitation, "
+"assessment, and budgeting, to name a few."
+msgstr ""
+"Tomamos la arquitectura con inteligencia. Nuestra dilatada experiencia nos "
+"permite ofrecer una amplia gama de servicios, tales como obtención de "
+"licencias, reconversión de locales comerciales a residenciales, inspecciones "
+"de salud y seguridad, dirección de obra, obtención de certificados de "
+"habitabilidad, rehabilitación de fachadas, tasación y presupuestación, entre "
+"otros. "
+
+#: mainapp/templates/mainapp/home/inc/_our_services.html:66
+#: mainapp/templates/mainapp/services/inc/_interior-design.html:13
+msgid "Interior Design"
+msgstr "Diseño de interiores"
+
+#: mainapp/templates/mainapp/home/inc/_our_services.html:70
+msgid ""
+"We develop a wide array of interior design projects for both commercial and "
+"residential properties. Our goal is to create a unique experience of the "
+"interior space in accordance with its dimensions, technical parameters, end-"
+"use, and our clients’ individual preferences."
+msgstr ""
+"Desarrollamos una amplia gama de proyectos de diseño de interiores para "
+"propiedades comerciales y residenciales. Nuestro objetivo es crear una "
+"experiencia única del espacio interior de acuerdo con sus dimensiones, "
+"parámetros técnicos, uso final y preferencias individuales de nuestros "
+"clientes. "
+
+#: mainapp/templates/mainapp/home/inc/_our_services.html:83
+msgid "Real Estate Consulting"
+msgstr "Consultoría inmobiliaria"
+
+#: mainapp/templates/mainapp/home/inc/_our_services.html:87
+msgid ""
+"The value of our service lies in saving you time and giving you a peace of "
+"mind. We understand that buying or selling a property in a foreign country "
+"can be utterly stressful, but let us assure you that it does not have to be "
+"this way."
+msgstr ""
+"El valor de nuestro servicio radica en ahorrarle tiempo y brindarle "
+"tranquilidad. Entendemos que comprar o vender una propiedad en un país "
+"extranjero puede ser muy estresante, pero permítanos asegurarle que no tiene "
+"por qué ser así. "
+
+#: mainapp/templates/mainapp/home/inc/_specialitys.html:14
+msgid "Features of our company"
+msgstr "Características de nuestra empresa"
+
+#: mainapp/templates/mainapp/home/inc/_specialitys.html:22
+msgid "You can send a request or ask us a question in the form provided below."
+msgstr ""
+"Puede enviar una solicitud o hacernos una pregunta en el formulario que se "
+"proporciona a continuación."
+
+#: mainapp/templates/mainapp/home/inc/_specialitys.html:29
+#: mainapp/templates/mainapp/services/services.html:43
+#: mainapp/templates/mainapp/view_property/inc/_view_modal-request.html:6
+msgid "Contact"
+msgstr "Contactar"
+
+#: mainapp/templates/mainapp/home/inc/_specialitys.html:40
+msgid "Purpose above all"
+msgstr "Propósito sobre todo"
+
+#: mainapp/templates/mainapp/home/inc/_specialitys.html:43
+msgid ""
+"To set and achieve goals is our professional skill developed by many years "
+"of experience."
+msgstr ""
+"Establecer y alcanzar metas es nuestra habilidad profesional desarrollada "
+"por muchos años de experiencia."
+
+#: mainapp/templates/mainapp/home/inc/_specialitys.html:51
+msgid "Continuous support"
+msgstr "Apoyo continuo"
+
+#: mainapp/templates/mainapp/home/inc/_specialitys.html:65
+msgid "As soon as possible"
+msgstr "Tan pronto como sea posible"
+
+#: mainapp/templates/mainapp/home/inc/_specialitys.html:68
+msgid ""
+"We believe and prove in practice that working quickly without losing quality "
+"is possible!"
+msgstr ""
+"Creemos y demostramos en la práctica que es posible trabajar rápidamente sin "
+"perder calidad."
+
+#: mainapp/templates/mainapp/home/inc/_welcome.html:9
+msgid "Welcome to the House Project"
+msgstr "Bienvenido a la House Project"
+
+#: mainapp/templates/mainapp/home/inc/_welcome.html:11
+msgid ""
+"Our team specialises in renovation, interior design and real estate services "
+"in Barcelona and throughout Catalonia. We manage and supervise each phase of "
+"the works, assuring the deadlines are met smoothly and every little detail "
+"is taken care of. We tailor our projects according to the needs of each "
+"client and the peculiarities of the space, aiming at a balance between "
+"aesthetics and costs. We like simple, flexible and clean designs."
+msgstr ""
+"Nuestro equipo está especializado en reformas, interiorismo y servicios "
+"inmobiliarios en Barcelona y en toda Cataluña. Gestionamos y supervisamos "
+"cada fase de las obras, asegurando los plazos se cumplen sin problemas y se "
+"cuida cada pequeño detalle. Adaptamos nuestros proyectos a la necesidades de "
+"cada cliente y las peculiaridades del espacio, buscando un equilibrio entre "
+"la estética y costos. Nos gustan los diseños simples, flexibles y limpios. "
+
+#: mainapp/templates/mainapp/mail/contact-us/web-page-contact-us.html:13
+#: mainapp/templates/mainapp/mail/request_quote/web-page-request-quote.html:13
+#: mainapp/templates/mainapp/mail/valuate-property/web-page-valuate-property.html:14
+#: mainapp/templates/mainapp/mail/visit-request/web-page-visit-request.html:13
+msgid "Dear"
+msgstr "Estimado/a"
+
+#: mainapp/templates/mainapp/mail/contact-us/web-page-contact-us.html:16
+msgid "Thank you for submitting your request for communicate you!"
+msgstr "¡Gracias por enviar su solicitud para comunicar usted!"
+
+#: mainapp/templates/mainapp/mail/contact-us/web-page-contact-us.html:19
+#: mainapp/templates/mainapp/mail/request_quote/web-page-request-quote.html:19
+#: mainapp/templates/mainapp/mail/valuate-property/web-page-valuate-property.html:20
+#: mainapp/templates/mainapp/mail/visit-request/web-page-visit-request.html:24
+msgid ""
+"In the near future our manager will contact you to receive detailed "
+"information."
+msgstr ""
+"En un futuro próximo, nuestro gerente se comunicará con usted para recibir "
+"información detallada."
+
+#: mainapp/templates/mainapp/mail/contact-us/web-page-contact-us.html:22
+#: mainapp/templates/mainapp/mail/request_quote/web-page-request-quote.html:22
+#: mainapp/templates/mainapp/mail/valuate-property/web-page-valuate-property.html:23
+#: mainapp/templates/mainapp/mail/visit-request/web-page-visit-request.html:27
+msgid "You have sent this data"
+msgstr "Has enviado estos datos"
+
+#: mainapp/templates/mainapp/mail/contact-us/web-page-contact-us.html:29
+#: mainapp/templates/mainapp/mail/request_quote/web-page-request-quote.html:29
+#: mainapp/templates/mainapp/mail/valuate-property/web-page-valuate-property.html:30
+#: mainapp/templates/mainapp/mail/visit-request/web-page-visit-request.html:34
+msgid "Phone"
+msgstr "Teléfono"
+
+#: mainapp/templates/mainapp/mail/request_quote/web-page-request-quote.html:16
+msgid "Thank you for submitting your request for quote for your project!"
+msgstr "¡Gracias por enviar su solicitud de cotización para su proyecto!"
+
+#: mainapp/templates/mainapp/mail/valuate-property/web-page-valuate-property.html:17
+msgid "Thank you for submitting your request for real estate appraisal!"
+msgstr "¡Gracias por enviar su solicitud de tasación de bienes raíces!"
+
+#: mainapp/templates/mainapp/mail/visit-request/web-page-visit-request.html:16
+msgid "Thank you for submitting your request for a visit!"
+msgstr "¡Gracias por enviar su solicitud de visita!"
+
+#: mainapp/templates/mainapp/property/inc/_filter-bar-modal.html:6
+#: mainapp/templates/mainapp/property/inc/_filter-bar-modal.html:42
+#: mainapp/templates/mainapp/property/inc/_filter-bar.html:27
+msgid "Filter"
+msgstr "Filtro"
+
+#: mainapp/templates/mainapp/property/inc/_filter-bar-modal.html:17
+msgid "Filter of proporties"
+msgstr "Filtro del propiedad"
+
+#: mainapp/templates/mainapp/property/inc/_filter-bar-modal.html:33
+#: mainapp/templates/mainapp/property/inc/_filter-bar.html:17
+msgid "Price min."
+msgstr "Precio min."
+
+#: mainapp/templates/mainapp/property/inc/_filter-bar-modal.html:37
+#: mainapp/templates/mainapp/property/inc/_filter-bar.html:21
+msgid "Price max."
+msgstr "Precio max."
+
+#: mainapp/templates/mainapp/property/inc/_pagination.html:9
+msgid "Principle"
+msgstr "Principio"
+
+#: mainapp/templates/mainapp/property/inc/_pagination.html:44
+msgid "End"
+msgstr "Fin"
+
+#: mainapp/templates/mainapp/reforms/inc/_our-reforms.html:6
+msgid "Examples of our reforms"
+msgstr "Ejemplos de nuestras reformas"
+
+#: mainapp/templates/mainapp/reforms/inc/_reform-calc-form.html:6
+msgid "Get the best renovation for your home"
+msgstr "Consigue la mejor reforma para tu vivienda"
+
+#: mainapp/templates/mainapp/reforms/inc/_reform-calc-form.html:14
+msgid "Repairs and renovation experts"
+msgstr "Expertos en reformas integrales"
+
+#: mainapp/templates/mainapp/reforms/inc/_reform-calc-form.html:15
+msgid ""
+"Order now the calculation of the cost of repairs and renovation, free, fast, "
+"and without any obligation."
+msgstr "Pide ahora tu presupuesto rápido, gratis y sin compromiso."
+
+#: mainapp/templates/mainapp/reforms/inc/_reform-calc-form.html:18
+msgid "Request a quote for your project"
+msgstr "Solicita presupuesto para tu proyecto"
+
+#: mainapp/templates/mainapp/reforms/inc/_reformas-integrales.html:6
+msgid "Integral Renovations"
+msgstr "Reformas Integrales"
+
+#: mainapp/templates/mainapp/reforms/inc/_reformas-integrales.html:13
+msgid ""
+"At the moment of planning and creation of each of our projects we think "
+"about construction, design, and implementation of the most sophisticated, "
+"relaxed and cosy interior ideas of our clients.We are always aimed at "
+"creating living spaces that will inspire and comfort the inhabitants. We use "
+"each opportunity to highlight architectural details and elements of the "
+"object to conserve and underline the beauty of the bright ideas. At the same "
+"time, we give priority to the client’s needs and preferences, as we believe "
+"that every home is a reflection of the owner’s personality. We offer "
+"ourselves to realise all the client’s ideas and demands in the purest, "
+"lightweight and clean way.Each of our projects is designed to be friendly to "
+"the environment. One of our main principles is that our work has to "
+"contribute to the creation of more sustainable life and a better world."
+msgstr ""
+"Al momento de planter cada proyecto que tiene como base una reformas "
+"integral, pensamos directamenteen construir, diseñar e implementar ideas "
+"sofisticadas, acogedoras y relajadas según las necesidadesinmediatas del "
+"cliente y del contexto de los ambientes.Pensamos en crear espacios que te "
+"ayuden y quete inspiren por medio de matices, armonías y elementos propios "
+"de arquitectura. El proceso creativo decada reforma comienza escuchando a "
+"los clientes, colocando prioridad a los detalles que son parte de "
+"supersonalidad, creamos ideas que sean ligeras, flexibles y limpias.Cada "
+"unos de los proyectos son pensadospara que sean amigables con el medio "
+"ambiente. Es parte de nuestros principios contribuir con nuestrotrabajo para "
+"crear una vida más sostenible y un mundo mejor."
+
+#: mainapp/templates/mainapp/reforms/reforms.html:6 templates/inc/_nav.html:59
+msgid "Reforms"
+msgstr "Reformas"
+
+#: mainapp/templates/mainapp/services/inc/_architecture-engineering.html:12
+msgid ""
+"We take architecture smartly. Our extensive experience allows us to offer a "
+"wide range of services, such as obtaining licenses, converting commercial "
+"premises to residential, health and safety inspections, construction "
+"management, obtaining certificates of occupancy, facades rehabilitation, "
+"assessment, and budgeting, to name a few. Carrying out an architectural "
+"project is not easy; that is why we offer you the support of an expert team "
+"that knows the local market in depth."
+msgstr ""
+"Tomamos la arquitectura con inteligencia. Nuestra dilatada experiencia nos "
+"permite ofrecer una amplia gama de servicios, como obtener licencias, "
+"convertir locales comerciales en inspecciones residenciales, de salud y "
+"seguridad, dirección de obra, obtención de cédulas de habitabilidad, "
+"rehabilitación de fachadas, tasación y elaboración de presupuestos, entre "
+"otros. Realizar un proyecto arquitectónico no es fácil; por eso te ofrecemos "
+"el apoyo de un experto equipo que conoce en profundidad el mercado local. "
+
+#: mainapp/templates/mainapp/services/inc/_interior-design.html:16
+msgid ""
+"We develop a wide array of interior design projects for both commercial and "
+"residential properties. Our goal is to create a unique experience of the "
+"interior space in accordance with its dimensions, technical parameters, end-"
+"use, and our clients’ individual preferences. We always start with a "
+"thorough previous analysis and seek a balance between functionality, "
+"aesthetics and structural factors. Our mission is to give shape to the "
+"visions of our clients."
+msgstr ""
+"Desarrollamos una amplia gama de proyectos de diseño de interiores para "
+"propiedades comerciales y residenciales. Nuestro objetivo es crear una "
+"experiencia única del espacio interior de acuerdo con sus dimensiones, "
+"parámetros técnicos, uso final y preferencias individuales de nuestros "
+"clientes. Siempre partimos de un análisis previo minucioso y buscamos un "
+"equilibrio entre funcionalidad, estética y factores estructurales. Nuestra "
+"misión es dar forma a las visiones de nuestros clientes. "
+
+#: mainapp/templates/mainapp/services/inc/_monthly-home-rental.html:9
+msgid "Monthly Home Rental"
+msgstr "Alquiler mensual de vivienda"
+
+#: mainapp/templates/mainapp/services/inc/_monthly-home-rental.html:12
+msgid ""
+"Our team also manages monthly home rentals. Here we are speaking about short-"
+"term rentals, but always longer than 32 days. In this case, we search for a "
+"specific profile of tenants, usually businessmen who travel for work and "
+"look for fully furnished, ready-to-move-in houses or flats. This type of "
+"contracts should not be confused with vacation rentals, as these do not "
+"require special permits by the Barcelona City Council."
+msgstr ""
+"Nuestro equipo también gestiona alquileres mensuales de viviendas. Aquí "
+"estamos hablando de alquileres a corto plazo, pero siempre más de 32 días. "
+"En este caso, buscamos un perfil específico de inquilinos, generalmente "
+"hombres de negocios que viajan por trabajo y buscan casas o pisos "
+"completamente amueblados y listos para mudarse. Este tipo de contratos no "
+"deben confundirse con los alquileres vacacionales, ya que estos no requieren "
+"especial permisos del Ayuntamiento de Barcelona. "
+
+#: mainapp/templates/mainapp/services/inc/_property-rentals.html:12
+msgid "Property Rentals in Barcelona"
+msgstr "Alquiler de propiedades en Barcelona"
+
+#: mainapp/templates/mainapp/services/inc/_property-rentals.html:15
+msgid ""
+"Residential and commercial properties rental is one of our key services. We "
+"work with a wide network of personal contacts, to find a right tenant in the "
+"shortest possible time. Our service includes administrative and tax law "
+"advice for both the tenant and the landlord. We guide our clients throughout "
+"the rental process. Our team takes care of all the complex paperwork and "
+"negotiates the conditions achieving a satisfactory result for all parties "
+"involved."
+msgstr ""
+"El alquiler de propiedades residenciales y comerciales es uno de nuestros "
+"servicios clave. Trabajamos con una amplia red de contactos personales, para "
+"encontrar el inquilino adecuado en el menor tiempo posible. Nuestro servicio "
+"incluye asesoramiento en derecho administrativo y fiscal tanto para el "
+"inquilino como para el arrendador. Guiamos a nuestros clientes durante todo "
+"el proceso de alquiler. Nuestro equipo se encarga de todo el papeleo "
+"complejo y negocia las condiciones logrando un resultado satisfactorio para "
+"todas las partes involucradas. "
+
+#: mainapp/templates/mainapp/services/inc/_real-estate-consulting.html:9
+msgid "Real Estate Consulting and Relocation"
+msgstr "Consultoría y reubicación inmobiliaria"
+
+#: mainapp/templates/mainapp/services/inc/_real-estate-consulting.html:12
+msgid ""
+"The value of our service lies in saving you time and giving you a peace of "
+"mind. We understand that buying or selling a property in a foreign country "
+"can be utterly stressful, but let us assure you that it does not have to be "
+"this way. In the real estate market, experience is specifically crucial to "
+"carry out a successful transaction for all the parties. With our "
+"multidisciplinary team you will be in good hands. We provide our customers "
+"with financial, legal and tax advice and offer a complete range of real "
+"estate services: property valuation, transaction management, administrative "
+"paperwork, short and long-term rentals, to name a few. Our team specialises "
+"in both commercial and residential properties and has been awarded the AICAT "
+"certification No. XXXXXXX"
+msgstr ""
+"El valor de nuestro servicio radica en ahorrarle tiempo y brindarle "
+"tranquilidad. Entendemos que comprar o vender una propiedad en un país "
+"extranjero puede ser extremadamente estresante, pero le aseguramos que no "
+"tiene por qué ser así. En el mercado inmobiliario, la experiencia es "
+"especialmente crucial para llevar a cabo una transacción exitosa. para todas "
+"las fiestas. Con nuestro equipo multidisciplinar estarás en buenas manos. "
+"Brindamos a nuestros clientes asesoramiento financiero, legal y fiscal y "
+"ofrecemos una gama completa de servicios inmobiliarios: valoración "
+"inmobiliaria, gestión de transacciones, trámites administrativos, alquileres "
+"a corto y largo plazo, por nombrar algunos. Nuestro equipo se especializa "
+"tanto en comercial como residencial propiedades y ha sido galardonado con la "
+"certificación AICAT No. XXXXXXX "
+
+#: mainapp/templates/mainapp/services/inc/_renovation-construction.html:16
+msgid ""
+"We tailor our renovation and construction projects following the individual "
+"needs of the clients. We build cozy spaces, create functional designs, and "
+"implement solutions respecting the existing environment. We seek perfection "
+"in every detail because we want our spaces to inspire you with harmony and "
+"singularity. We manage the projects from A to Z and assist our clients "
+"throughout the work process, ensuring its optimal result. Our mission is to "
+"create or increase the value of your property. Among other factors, ecology "
+"is a priority for our team. It is part of our philosophy to contribute to a "
+"more sustainable life."
+msgstr ""
+"Adaptamos nuestros proyectos de renovación y construcción siguiendo las "
+"necesidades individuales de los clientes. Construimos espacios acogedores, "
+"creamos diseños funcionales e implementamos soluciones respetando el entorno "
+"existente. Buscamos la perfección en cada detalle porque queremos que "
+"nuestros espacios te inspiren armonía y singularidad. Gestionamos los "
+"proyectos de la A a la Z y asistimos a nuestros clientes durante todo el "
+"proceso de trabajo, asegurando su óptimo resultado. Nuestra misión es crear "
+"o incrementar el valor de su propiedad. Entre otros factores, la ecología es "
+"una prioridad para nuestro equipo. Es parte de nuestra filosofía contribuir "
+"a una vida más sostenible. "
+
+#: mainapp/templates/mainapp/view_property/inc/_view_modal-request.html:19
+msgid "Request a view"
+msgstr "Solicitar la visita"
+
+#: mainapp/views.py:45
+msgid "House Project - real estate services and integral reforms in Barcelona"
+msgstr ""
+
+#: mainapp/views.py:134
+msgid "Integral reforms in Barcelona"
+msgstr "Reformas Integrales en Barcelona"
+
+#: templates/inc/_-footer-modal.html:19 templates/inc/_footer.html:21
+msgid "Property valuation"
+msgstr "Valoración del propiedad"
+
+#: templates/inc/_footer.html:16
+msgid "Repair/Build"
+msgstr "Reparar/Construir"
+
+#: templates/inc/_footer.html:26
+msgid "Buy / Rent"
+msgstr "Comprar / Alquilar"
+
+#: templates/inc/_footer.html:32
+msgid "All rights reserved © House Project Team 2020"
+msgstr "Todos los derechos reservados © House Project Team 2020"
+
+#: templates/inc/_nav.html:49
+msgid "Home"
+msgstr "Principal"
+
+#: templates/inc/_nav.html:69
+msgid "Contacts"
+msgstr "Contactos"
+
+#~ msgid ""
+#~ "ENGLISH-TEXT!!!Lorem ipsum dolor sit amet. Adipisci cupiditate iste "
+#~ "laboriosam nesciunt repellendus similique, suscipit voluptas."
+#~ msgstr ""
+#~ "ESPAÑOL TEXTO!!!Lorem ipsum dolor sit amet. Adipisci cupiditate iste "
+#~ "laboriosam nesciunt repellendus similique, suscipit voluptas."
+
+#~ msgid "Spain, Barcelona"
+#~ msgstr "España, Barcelona"
+
+#~ msgid "That`s how we optimized our process"
+#~ msgstr "Así optimizamos nuestro proceso"
+
+#~ msgid ""
+#~ "ENGLISH-TEXT!!!FLATS FLATS FLATS !!! Lorem ipsum dolor sit amet. Alias "
+#~ "consequuntur error esse inventore labore laboriosam, laudantium maiores "
+#~ "nam vel vero!"
+#~ msgstr ""
+#~ "ESPAÑOL TEXT !!! PISO PISO PISO !!! Lorem ipsum dolor sit amet. Alias "
+#~ "consequuntur error esse inventore labore laboriosam, laudantium maiores "
+#~ "nam vel vero!"
+
+#~ msgid ""
+#~ "ENGLISH-TEXT!!!Lorem ipsum dolor sit amet, consectetur adipisicing elit. "
+#~ "Animi dolore iure reprehenderit vero voluptate."
+#~ msgstr ""
+#~ "ESPAÑOL TEXTO!!!Lorem ipsum dolor sit amet, consectetur adipisicing elit. "
+#~ "Animi dolore iure reprehenderit vero voluptate."
+
+#, fuzzy
+#~| msgid "ENGLISH-TEXT!!!Lorem ipsum, consectetur adipisicing elit."
+#~ msgid "ENGLISH-TEXT!!! Lorem ipsum, consectetur adipisicing elit."
+#~ msgstr "ESPAÑOL TEXTO!!!Lorem ipsum, consectetur adipisicing elit."
+
+#~ msgid "First"
+#~ msgstr "Principio"
+
+#~ msgid "Last"
+#~ msgstr "Fin"
+
+#~ msgid "Message`s been sent!"
+#~ msgstr "Mensaje enviado!"
+
+#~ msgid "CONTACT"
+#~ msgstr "CONTACTAR"
+
+#~ msgid "Build"
+#~ msgstr "Construir"
+
+#~ msgid "Buy"
+#~ msgstr "Comprar"
+
+#~ msgid "Copyright 2020 © House Project Team All rights reserved"
+#~ msgstr "Copyright 2020 © House Project Team Todos los derechos reservados"
+
+#~ msgid "Agent"
+#~ msgstr "Agente"
+
+#~ msgid "Loader"
+#~ msgstr "Cargador"
+
+#~ msgid "Builder"
+#~ msgstr "Constructor"
+
+#~ msgid "RENT"
+#~ msgstr "ALQUILAR"
+
+#~ msgid "SALE"
+#~ msgstr "VENDER"
+
+#~ msgid "Address"
+#~ msgstr "Dirección"

@@ -1,0 +1,33 @@
+{% load static i18n %}
+{% load static %}
+
+
+<div id="feedback-carouselExampleIndicators" class="feedback carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        {% for feeds in feedback %}
+            {% if forloop.first %}
+                <div class="carousel-item active">
+            {% else %}
+                <div class="carousel-item">
+            {% endif %}
+        <img class="feedback-avatar" src="{{ feeds.avatar.url }}" width="100" alt="">
+        <h5 class="feedback-client">{{ feeds.name }}</h5>
+        <p class="feedback-citizen"><i>
+            {{ feeds.country }},
+            {{ feeds.city }}
+        </i></p>
+        <p class="feedback-comment">{{ feeds.feedback }}</p>
+        </div>
+        {% endfor %}
+        </div>
+
+        <a class="carousel-control-prev" href="#feedback-carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#feedback-carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>

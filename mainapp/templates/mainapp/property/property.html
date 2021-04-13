@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}{% endblock %}
+
+{% block content %}
+
+    <div class="FlatCards col-12 col-md-12 col-lg-12">
+        <div class="row">
+
+            <div class="property-header col-lg-12 col-md-12 col-12">
+                <h2>{% trans 'Properties' %}</h2>
+            </div>
+
+            {% include './inc/_filter-bar.html' %}
+            {% include './inc/_filter-bar-modal.html' %}
+
+            {% for props in property_page_obj %}
+                {% include './inc/_filtered-properties.html' %}
+            {% endfor %}
+
+        </div>
+
+        {% if property_page_obj.has_other_pages %}
+            {% include './inc/_pagination.html' %}
+        {% endif %}
+
+    </div>
+
+{% endblock %}

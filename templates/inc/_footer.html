@@ -1,0 +1,33 @@
+{% load flags %}
+{% load static i18n %}
+
+
+{% include './_-footer-modal.html'%}
+
+<div class="footer">
+    <div class="foot_logo">
+        <a href="{% url 'home' %}">
+            <img src="{% static 'houseprojectteam/images/HouseP.png' %}" width="100%">
+        </a>
+    </div>
+    <div class="foot_deal">
+        <div class="row m-0">
+            <a class="btn-nav col-6 m-3 p-2" href="{% url 'reforms' %}">
+                {% blocktrans trimmed %}
+                    Repair/Build
+                {% endblocktrans %}
+            </a>
+            <a class="btn-nav col-6 m-3 p-2" href="{% url 'home' %}" data-toggle="modal" data-target="#FootModal">
+                {% blocktrans trimmed %}
+                    Property valuation
+                {% endblocktrans %}
+            </a>
+            <a class="btn-nav col-6 m-3 p-2" href="{% url 'property' %}">
+                {% blocktrans trimmed %}
+                    Buy / Rent
+                {% endblocktrans %}
+            </a>
+        </div>
+    </div>
+    <div class="all_rights">{% trans 'All rights reserved © House Project Team 2020' %}</div>
+</div>

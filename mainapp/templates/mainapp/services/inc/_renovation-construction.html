@@ -1,0 +1,31 @@
+{% load static i18n %}
+{% load static %}
+
+
+<div class="service-type col-12 col-md-6">
+    <a id="services-repairs"></a>
+    <div class="service-img">
+        <img src="{% static 'houseprojectteam/images/Reformas.jpg' %}" style="width: 100%;" alt="">
+    </div>
+</div>
+<div class="service-type d-flex flex-wrap align-items-center col-12 col-md-6">
+    <div class="service-header">
+        <h2>{% trans 'Renovation and Construction' %}</h2>
+        <div class="service-text">
+            <p>
+                {% blocktrans trimmed %}
+                    We tailor our renovation and construction projects following the individual needs of the clients.
+                    We build cozy spaces, create functional designs, and implement solutions respecting the existing
+                    environment.
+                    We seek perfection in every detail because we want our spaces to inspire you with harmony and
+                    singularity.
+                    We manage the projects from A to Z and assist our clients throughout the work process, ensuring its
+                    optimal result.
+                    Our mission is to create or increase the value of your property. Among other factors, ecology is a
+                    priority
+                    for our team. It is part of our philosophy to contribute to a more sustainable life.
+                {% endblocktrans %}
+            </p>
+        </div>
+    </div>
+</div>

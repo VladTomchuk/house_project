@@ -1,0 +1,157 @@
+@media only screen and (max-width: 576px) {
+    #OurServices h2 {
+        width: 100%;
+        text-align: center;
+        padding: 5%;
+    }
+
+    .card-service {
+        width: 300px;
+        padding: 30px 15px;
+    }
+
+    .card-service h5 {
+        height: 10%;
+    }
+
+    .aboutServices {
+        flex-direction: column;
+    }
+
+    .info {
+        margin-top: 10%;
+        height: 89%;
+    }
+
+    .aboutServices p {
+        padding: 10% 0;
+    }
+
+    .scrolling-wrapper {
+        justify-content: initial;
+    }
+
+    .scrolling-wrapper {
+        padding: 10% 5%;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .scrolling-wrapper {
+        padding: 5% 0 !important;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 1200px) {
+    #OurServices h2 {
+        width: 55%;
+        padding: 0 0 2% 10%;
+    }
+
+    .aboutServices p {
+        margin-top: 2%;
+        width: 50%;
+    }
+
+    .card-service {
+        width: 280px;
+        height: 48vw;
+        padding: 10px 10px;
+    }
+
+    .card-service h5 {
+        height: 15%;
+    }
+
+    .info {
+        height: 85%;
+    }
+
+    .scrolling-wrapper {
+        padding: 5% 7% 5% 0;
+    }
+
+    .aboutServices {
+        padding: 0 2%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #OurServices h2 {
+        width: 55%;
+        text-align: left;
+        padding: 0 0 2% 11%;
+        margin: 0;
+    }
+
+    .aboutServices p {
+        margin-top: 2%;
+        width: 44%;
+    }
+
+    .scrolling-wrapper {
+        justify-content: center;
+        padding: 3% 5% 3% 0;
+    }
+
+    .card-service {
+        width: 23%;
+        height: 30vw;
+        padding: 10px 10px;
+    }
+
+    .card-service h5 {
+        height: 15%;
+    }
+
+    .info {
+        height: 85%;
+    }
+}
+
+.service-ctx {
+    overflow: hidden;
+    height: 80%;
+}
+
+.aboutServices {
+    color: #f3f5f4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aboutServices p {
+    text-indent: 20px;
+}
+
+.scrolling-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    background-color: #202126;
+    margin: 2% 0 5%;
+}
+
+.card-service {
+    margin: 0 5px;
+    flex: 0 0 auto;
+    color: #f3f5f4;
+    border: 1px solid #f3f5f4;
+    border-radius: 15px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.card-service h5 {
+    color: #e23c3c;
+}
+
+#OurServices h2 {
+    color: #e23c3c;
+    border-bottom: 1px solid #e23c3c;
+}

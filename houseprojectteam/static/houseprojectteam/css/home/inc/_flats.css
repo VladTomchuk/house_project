@@ -1,0 +1,164 @@
+@media only screen and (max-width: 576px) {
+    .FlatCards {
+        padding: 0;
+    }
+
+    .flatText p {
+        padding-bottom: 5%;
+    }
+
+    .flatText h2 {
+        padding-bottom: 10%;
+        margin-bottom: 10%;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 1200px) {
+    .flatText h2 {
+        padding: 3% 18%;
+        text-align: left;
+    }
+
+    .flatText p {
+        padding: 3% 0 3% 18%;
+    }
+
+    .FlatCards {
+        padding: 0 7%;
+    }
+
+    .flatText {
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .flatText h2 {
+        padding: 0 21% 3%;
+        text-align: left;
+    }
+
+    .flatText p {
+        padding: 3% 15% 3% 22%;
+        text-align: left;
+    }
+
+    .flatText {
+        padding: 0;
+    }
+
+    .FlatCards {
+        padding: 0 10%;
+    }
+}
+
+.FlatCards {
+    text-align: center;
+}
+
+#Flats h2 {
+    color: #e23c3c;
+    border-bottom: 1px solid #e23c3c;
+}
+
+.flatText p {
+    text-indent: 20px;
+}
+
+.card,
+.card-img-top,
+.card-body,
+.flatPrice p {
+    transition: 0.7s;
+}
+
+.flat-dates img {
+    transition: 0.2s;
+}
+
+.card_hover:hover .card {
+    box-shadow: 0 0px 15px 0px #f3f5f4;
+}
+
+.card_hover:hover .card-img-top {
+    transform: scale(1.1, 1.1);
+}
+
+.card {
+    border: none;
+}
+
+._hidden {
+    overflow: hidden;
+}
+
+.card_hover:hover .flatPrice p {
+}
+
+.flat-dates img {
+    width: 10%;
+    margin-right: 5px;
+    filter: invert(6%) sepia(9%) saturate(173%) hue-rotate(314deg) brightness(98%) contrast(100%);
+}
+
+.card_hover:hover .flat-dates img {
+    filter: invert(100%) sepia(0%) saturate(7496%) hue-rotate(76deg) brightness(100%) contrast(99%);
+}
+
+.card_hover:hover .card-img-top {
+    opacity: 0.8;
+}
+
+.card-body {
+    background-color: #ffffff;
+    color: #111010;
+    border-bottom-left-radius: calc(.25rem - 1px);
+    border-bottom-right-radius: calc(.25rem - 1px);
+    padding: 5%;
+}
+
+.card_hover:hover .card-body {
+    background: #111010;
+    color: #ffffff;
+}
+
+.flat-dates {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flat-dates p {
+    border-right: 1px solid #4b4b4b;
+    margin: 0 10px 0 0;
+    padding: 0 5px;
+}
+
+.flatInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+}
+
+.flatPrice p {
+    padding: 0.5vmax;
+    color: #f3f5f4;
+    background-color: #111010;
+    text-align: center;
+    border: 1px solid #f3f5f4;
+}
+
+.card-title {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    text-align: left;
+}
+
+p.location {
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 2%;
+}

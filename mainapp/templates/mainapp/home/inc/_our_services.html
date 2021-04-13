@@ -1,0 +1,101 @@
+{% load static i18n %}
+{% load static %}
+
+
+<h2>{% trans "Services" %}</h2>
+<div class="aboutServices ">
+    <p>
+        {% blocktrans trimmed %}
+            For us, a personalised approach is the key to a successful collaboration.
+            Our projects always begin with a dialogue, as we try to reflect the client’s personality
+            in our work. In the same way, regarding our real estate services, we guide our customers
+            individually. We prepare all the relevant information of both the property and the area w
+            here it is located. Our mission is to achieve the best quality price relationship.
+        {% endblocktrans %}
+    </p>
+    <a class="btn btn-nav" href="{% url 'services' %}#services-repairs">
+        {% trans "Services" %}
+    </a>
+</div>
+</div>
+<div class="row">
+    <div class="scrolling-wrapper col-12">
+        <div class="card-service">
+            <h5>{% trans "Renovation and Construction" %}</h5>
+            <div class="info">
+                <div class="service-ctx">
+                    <p>
+                        {% blocktrans trimmed %}
+                            We tailor our renovation and construction projects following the individual needs of the
+                            clients.
+                            We build cozy spaces, create functional designs, and implement solutions respecting the
+                            existing environment.
+                            We seek perfection in every detail because we want our spaces to inspire you with
+                            harmony and singularity.
+                            We manage the projects from A to Z.
+                        {% endblocktrans %}
+                    </p>
+                </div>
+                <a class="btn btn-nav" href="{% url 'services' %}#services-repairs">
+                    {% trans "Read more" %}
+                </a>
+            </div>
+        </div>
+        <div class="card-service">
+            <h5>{% trans "Architecture and Engineering" %}</h5>
+            <div class="info">
+                <div class="service-ctx">
+                    <p>
+                        {% blocktrans trimmed %}
+                            We take architecture smartly. Our extensive experience allows us to offer a wide range
+                            of
+                            services,
+                            such as obtaining licenses, converting commercial premises to residential,
+                            health and safety inspections, construction management, obtaining certificates of
+                            occupancy,
+                            facades rehabilitation, assessment, and budgeting, to name a few.
+                        {% endblocktrans %}
+                    </p>
+                </div>
+                <a class="btn btn-nav" href="{% url 'services' %}#services-architecture">
+                    {% trans "Read more" %}
+                </a>
+            </div>
+        </div>
+        <div class="card-service">
+            <h5>{% trans "Interior Design" %}</h5>
+            <div class="info">
+                <div class="service-ctx">
+                    <p>
+                        {% blocktrans trimmed %}
+                            We develop a wide array of interior design projects for both commercial and residential
+                            properties.
+                            Our goal is to create a unique experience of the interior space in accordance with its
+                            dimensions,
+                            technical parameters, end-use, and our clients’ individual preferences.
+                        {% endblocktrans %}
+                    </p>
+                </div>
+                <a class="btn btn-nav" href="{% url 'services' %}#services-design">{% trans "Read more" %}</a>
+            </div>
+        </div>
+        <div class="card-service">
+            <h5>{% trans "Real Estate Consulting" %}</h5>
+            <div class="info">
+                <div class="service-ctx">
+                    <p>
+                        {% blocktrans trimmed %}
+                            The value of our service lies in saving you time and giving you a peace of mind.
+                            We understand that buying or selling a property in a foreign country can be utterly
+                            stressful,
+                            but let us assure you that it does not have to be this way.
+                        {% endblocktrans %}
+                    </p>
+                </div>
+                <a class="btn btn-nav" href="{% url 'services' %}#services-rental">
+                    {% trans "Read more" %}
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

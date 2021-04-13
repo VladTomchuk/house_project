@@ -1,0 +1,139 @@
+@media only screen and (max-width: 576px) {
+    .reformas-img {
+        padding: 0;
+    }
+
+    .X {
+        padding: 0;
+    }
+
+    .LetsOrderText {
+        padding: 10% 0;
+    }
+
+    .LetsOrderText .foot_logo {
+        padding: 5% 0;
+    }
+
+    .LetsOrderText .foot_logo:hover {
+        transform: scale(1.1);
+    }
+
+    .LetsOrderText p {
+        padding: 5% 0;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .reformas-img {
+        display: flex;
+        justify-items: center;
+    }
+}
+
+.reformas-title {
+    margin-bottom: 5%;
+    padding: 0;
+}
+.reformas-title {
+    margin-bottom: 5%;
+    text-align: center;
+    color: #e23c3c;
+}
+
+.reformas-title {
+    text-align: center;
+}
+
+.reformas-describ {
+    display: flex;
+    align-items: center;
+    padding: 5% 2% 2%;
+}
+
+.reformas-img img {
+    width: 100%;
+}
+
+.LetsOrderText p {
+    color: #ef5656;
+}
+
+.reformas-describ p {
+    text-indent: 20px;
+}
+
+.reformas-img img {
+    width: 100%;
+}
+
+.ReformasIntegrales,
+.OurReforms,
+.ReformFilms,
+.ReformCalcForm {
+    padding: 5% 0;
+}
+
+.reforms-exampleFilm {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.reforms-responsive-iframe {
+    position: relative;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    padding: 5% 0;
+    margin-bottom: 10%;
+}
+
+.orderForm {
+    padding-bottom: 2%;
+    color: #f3f5f4;
+    box-shadow: 0px 0px 5px 1px #f3f5f4;
+    border-color: #f3f5f4;
+}
+
+.orderForm h5 {
+    margin: 5% 0;
+    text-align: center;
+    padding: 5% 0;
+    color: #f3f5f4;
+}
+
+.LetsOrderText {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.LetsOrderText .foot_logo:hover {
+    transition: 0.7s;
+}
+
+.LetsOrderText .foot_logo:hover {
+    transform: scale(1.1);
+    border-color: #f3f5f4;
+    box-shadow: 0px 0px 5px 1px #f3f5f4;
+}
+
+#demo {
+    padding: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.carousel-control-prev {
+    justify-content: flex-start;
+}
+
+.carousel-control-next {
+    justify-content: flex-end;
+}

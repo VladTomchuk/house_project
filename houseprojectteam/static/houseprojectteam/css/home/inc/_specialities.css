@@ -1,0 +1,122 @@
+@media only screen and (max-width: 576px) {
+    .special-contact-btn {
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    #special-line-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .special-header h2 {
+        text-align: center;
+    }
+
+    .special-about {
+        padding: 5%;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    #special-line-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .special-header {
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 1200px) {
+    .special-header h2 {
+        text-align: left;
+    }
+
+    .special-line {
+        padding: 0;
+    }
+
+    .special-about {
+        padding: 0 5%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .special-about {
+        padding: 5%;
+    }
+
+    .special-header h2 {
+        text-align: left;
+        margin-bottom: 8%;
+    }
+
+    .special-line {
+        padding: 0;
+    }
+}
+
+.special-about h5 {
+    margin-bottom: 5%;
+    text-indent: 20px;
+}
+
+div.special-header h2 {
+    color: #e23c3c;
+}
+
+div.special-about {
+    display: flex;
+    align-items: center;
+    color: #f3f5f4;
+}
+
+div .left {
+    padding: 4%;
+    background-color: #f3f5f4;
+    margin: 5% 0;
+}
+
+div .right {
+    width: 100%;
+    padding: 4%;
+    background-color: #8e0809;
+    color: #f3f5f4;
+}
+
+div .left p, div .left h5 {
+    color: #111010
+}
+
+div .ImgBx h5 {
+    text-align: center;
+    margin: 0 5%;
+}
+
+.special-card p {
+    text-indent: 20px;
+}
+
+img.special-svg-right {
+    width: 25%;
+    filter: invert(92%) sepia(1%) saturate(266%) hue-rotate(93deg) brightness(107%) contrast(94%);
+}
+
+img.special-svg-left {
+    width: 25%;
+    filter: invert(8%) sepia(85%) saturate(4723%) hue-rotate(345deg) brightness(92%) contrast(109%);
+}
+
+.ImgBx {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-body div.ImgBx img {
+    width: 100%;
+    margin-bottom: 10px;
+}

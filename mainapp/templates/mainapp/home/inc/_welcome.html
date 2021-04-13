@@ -1,0 +1,21 @@
+{% load static i18n %}
+{% load static %}
+
+
+<div class="TeamDesk col-12 col-md-7">
+    {% include './_-team-cards.html' %}
+</div>
+<div class="TextContent col-12 col-md-5">
+    <h2>{% trans "Welcome to the House Project" %}</h2>
+    <p>
+        {% blocktrans trimmed %}
+            Our team specialises in renovation, interior design and real estate services in Barcelona
+            and throughout Catalonia. We manage and supervise each phase of the works, assuring the
+            deadlines
+            are met smoothly and every little detail is taken care of. We tailor our projects according to
+            the
+            needs of each client and the peculiarities of the space, aiming at a balance between aesthetics
+            and costs. We like simple, flexible and clean designs.
+        {% endblocktrans %}
+    </p>
+</div>

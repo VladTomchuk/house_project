@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+
+        {% include './inc/_view-page_title.html' %}
+
+        <div class="row">
+            <div class="view_info-table col-12 col-md-4 ">
+                 {% include './inc/_view_info-table.html' %}
+                 {% include './inc/_view_modal-request.html' %}
+            </div>
+
+
+            <div class="col-12 col-md-8 p-0">
+                <div class="row">
+                    {% include './inc/_view_carousel.html' %}
+                    {% include './inc/_view_description.html' %}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,302 @@
+@media only screen and (max-width: 576px) {
+    #logo {
+        max-width: 8vmax;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    #logo {
+        max-width: 10%;
+    }
+
+    ul.icon-bar li.foot-li {
+        margin: 15px !important;
+    }
+
+    ul.icon-bar li.foot-li a {
+        width: 40px;
+        height: 40px;
+        padding: 4px;
+    }
+
+    ul.icon-bar li.foot-li a .fa {
+        font-size: 16px;
+        line-height: calc(40px - 8px);
+    }
+
+    ul.footer li.foot-li a {
+        width: 40px;
+        height: 40px;
+        padding: 4px;
+        margin: 0 25px !important;
+    }
+
+    ul.footer li.foot-li a .fa {
+        font-size: 16px;
+        line-height: calc(40px - 8px);
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+    ul.icon-bar {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar-collapse {
+        position: absolute;
+        top: 58px;
+        left: 0;
+        text-align: center;
+        padding: 10% 5px;
+        width: 100%;
+        background-color: var(--background);
+    }
+
+    .navbar-collapse .collapsing {
+        height: auto;
+        -webkit-transition: left 0.3s ease;
+        -o-transition: left 0.3s ease;
+        -moz-transition: left 0.3s ease;
+        transition: left 0.3s ease;
+        left: -100%;
+    }
+
+    .navbar-collapse.show {
+        left: 0;
+        -webkit-transition: left 0.3s ease-in;
+        -o-transition: left 0.3s ease-in;
+        -moz-transition: left 0.3s ease-in;
+        transition: left 0.3s ease-in;
+    }
+
+    ul.social-nav-bar {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 10%;
+    }
+
+    .choose-lang a img {
+        display: none;
+    }
+
+    .dropdown {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        background-color: var(--background);
+        padding: 10% 5%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    ul.social-nav-bar {
+        position: fixed;
+        top: 20%;
+        right: 10px;
+        text-align: center;
+    }
+
+    li.choose-lang {
+        display: inline-block;
+        position: relative;
+    }
+
+    .choose-lang a {
+        display: inline-block;
+        cursor: pointer;
+        color: var(--white_main);
+        padding: 0.5em;
+        margin: 0.5em 1em;
+        position: relative;
+    }
+
+    .choose-lang a img {
+        filter: invert(100%) sepia(1%) saturate(600%) hue-rotate(87deg) brightness(98%) contrast(96%);
+    }
+
+    .dropdown {
+        list-style: none;
+        display: none;
+        position: absolute;
+        background-color: var(--background);
+        padding: 5%;
+    }
+
+    .dropdown li {
+        display: flex;
+        justify-content: left;
+    }
+
+    .choose-lang:hover .dropdown {
+        display: block;
+    }
+
+    ul.icon-bar {
+        position: fixed;
+        display: flex;
+        flex-direction: column !important;
+        right: 0;
+        transform: translateY(-50%);
+    }
+
+    div.nav_phone {
+        display: none;
+    }
+}
+
+ul.social-nav-bar {
+    list-style: none;
+}
+
+div.nav_phone a img {
+    width: 40px;
+    margin-left: 15%;
+    filter: invert(100%) sepia(1%) saturate(600%) hue-rotate(87deg) brightness(98%) contrast(96%);
+}
+
+
+li.social-link {
+    background-color: var(--background) !important;
+    width: auto !important;
+    padding: 15px;
+    margin: 10px 5%;
+    transition: ease 0.5s;
+}
+
+li.social-link:hover i.fa {
+    color: var(--white_main);
+}
+
+li.social-link:hover {
+    transform: scale(1.1);
+}
+
+li.social-link a {
+    color: var(--title);
+    transition: ease 0.5s;
+}
+
+/*------------------NAVBAR MAIN----------------------*/
+#nav {
+    transition: top 0.3s;
+}
+
+.navbar {
+    background-color: var(--background);
+    padding: 5px 5%;
+}
+
+.navbar-nav .nav-link {
+    text-align: center;
+    color: var(--white_main);
+    font-family: myFirstFont;
+}
+
+/*------------------MENU BURGER---------------------------*/
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 3px;
+    background-color: var(--white_main);
+    margin: 8px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+    background-color: var(--title);
+}
+
+.change .bar2 {
+    opacity: 0;
+    background-color: var(--title);
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+    background-color: var(--title);
+}
+
+/*---------------Languages------------*/
+.flags-li {
+    text-align: left;
+    transition: ease 0.5s;
+}
+
+.flags-li:hover {
+    transform: scale(1.4);
+    transition: ease 0.5s;
+}
+
+.flags-li:hover {
+    transform: scale(1.4);
+}
+
+/*-------item-&-links-----*/
+li.nav-item a {
+    display: inline-block;
+    list-style: outside none none;
+    margin: 0.5em 1em;
+}
+
+li.nav-item a {
+    letter-spacing: 1px;
+    padding: 0.5em 0.8em !important;
+    color: var(--white_main);
+    position: relative;
+    text-decoration: none;
+}
+
+.navbar-nav {
+    transition: all 0.35s ease;
+}
+
+li.nav-item a::before,
+li.nav-item a::after {
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    content: "";
+    transition: all 0.2s ease;
+    opacity: 0;
+}
+
+li.nav-item a::before {
+    content: "";
+    right: 0;
+    top: 0;
+    border-top: 3px solid var(--title);
+    border-right: 3px solid var(--title_shadow);
+    transform: translate(-100%, 50%);
+}
+
+li.nav-item a:after {
+    content: "";
+    left: 0;
+    bottom: 0;
+    border-bottom: 3px solid var(--title_shadow);
+    border-left: 3px solid var(--title);
+    transform: translate(100%, -50%);
+}
+
+li.nav-item a:hover:before,
+li.nav-item a:hover:after {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+li.nav-item a:hover,
+li.nav-item a:focus {
+    color: var(--title);
+}
+
+.page-active {
+    color: var(--title) !important;
+}

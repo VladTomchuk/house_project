@@ -1,0 +1,27 @@
+{% load static %}
+{% load i18n %}
+
+<div class="X col-lg-4 col-md-6 col-12">
+    <a class="card_hover" href="{{ props.get_absolute_url }}" target="_blank">
+        <div class="card">
+            <div class="_hidden">
+                <img class="card-img-top" src="{{ props.img.url }}" alt="Main photo">
+            </div>
+            <div class="card-body">
+                <p class="location">{{ props.province }}</p>
+                <p class="card-title">{{ props.title }}</p>
+                <div class="flatInfo">
+                    <div class="flat-dates">
+                        <img class="d-flex flex-row" src="{% static 'houseprojectteam/images/bed.svg' %}">
+                        <p> {{ props.rooms }}bd</p>
+                        <img class="d-flex flex-row" src="{% static 'houseprojectteam/images/bathroom.svg' %}">
+                        <p> {{ props.bathroom }}ba</p>
+                    </div>
+                    <div class="flatPrice">
+                        <p>${{ props.price }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+</div>

@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load static i18n %}
+
+{% block title %} {{ title }} {% endblock %}
+
+{% block content %}
+
+    <div id="MainVideo">
+        {% include './inc/_main_video.html' %}
+    </div>
+
+    <div class="row rew" id="Welcome">
+        {% include './inc/_welcome.html' %}
+    </div>
+
+    <div class="col-12" id="OurServices">
+        {% include './inc/_our_services.html' %}
+    </div>
+
+    <div id="Flats" class="col-12 col-md-12 col-lg-12">
+        {% include './inc/_flats.html' %}
+    </div>
+
+    <div class="col-12" id="OurSpecialitys">
+        {% include './inc/_specialitys.html' %}
+    </div>
+
+{% endblock %}
+
+

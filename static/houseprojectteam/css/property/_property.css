@@ -1,0 +1,132 @@
+.property-header h2{
+    color: var(--title);
+}
+ul.pagination {
+    margin-top: 5%;
+}
+
+li.page-item.active a.page-link {
+    color: var(--title);;
+    background-color: var(--background);
+    box-shadow: 0px 0px 5px 1px var(--title);
+    border-color: var(--title_shadow);
+}
+
+a.page-link {
+    color: #f3f5f4;
+    background-color: var(--background);
+}
+
+a.page-link:hover {
+    color: var(--title);
+    background-color:var(--background);
+    box-shadow: 0px 0px 5px 1px var(--title);
+    border-color: var(--title_shadow);
+}
+
+/*---filter-form-----*/
+#filter-bar {
+    margin-bottom: 5%;
+}
+
+#filter-bar-modal {
+    margin-bottom: 5%;
+}
+
+@media only screen and (max-width: 576px) {
+    .property-header {
+        margin: 5% 0;
+    }
+
+    select#id_deal,
+    select#id_province,
+    input#id_price__gt,
+    input#id_price__lt {
+        height: 10vw;
+    }
+
+    .fil-feald h5 {
+        margin: 5% 0;
+    }
+
+    .filter-field {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #filter-bar {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .property-header {
+        margin: 5% 0;
+    }
+
+    select#id_deal,
+    select#id_province,
+    input#id_price__gt,
+    input#id_price__lt {
+        height: 4vw;
+    }
+
+    .fil-feald h5 {
+        margin: 10% 0;
+    }
+
+    .filter-field {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #filter-bar-modal {
+        display: none;
+    }
+}
+
+label {
+    display: none;
+}
+
+select#id_deal,
+select#id_province,
+input#id_price__gt,
+input#id_price__lt {
+    text-align: center;
+    width: 100%;
+    color: var(--white_main);
+    background-color: var(--background);
+    border: 1px solid var(--white_main);
+    transition: ease 0.5s;
+    padding: 0 0 0 10%;
+}
+
+select#id_deal:hover,
+select#id_province:hover,
+input#id_price__gt:hover,
+input#id_price__lt:hover {
+    color: var(--title_shadow);
+    box-shadow: 0px 0px 5px 1px var(--title);
+    border-color: var(--title_shadow);
+}
+
+select#id_deal:focus,
+select#id_province:focus,
+input#id_price__gt:focus,
+input#id_price__lt:focus {
+    background-color: var(--background);
+    color: var(--title_shadow);
+    box-shadow: 0px 0px 5px 1px var(--title);
+    border-color: var(--title_shadow);
+}
+
+.fil-feald {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

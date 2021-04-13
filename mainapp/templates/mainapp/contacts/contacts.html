@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load static i18n %}
+
+{% block title %} Contacts {% endblock %}
+
+{% block content %}
+
+    <div id="Contacts" class="container">
+        <div class="card-deck">
+            {% include './inc/_card_left.html' %}
+            {% include './inc/_card_right.html' %}
+        </div>
+    </div>
+
+
+{% endblock %}

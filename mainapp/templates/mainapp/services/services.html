@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load static i18n %}
+
+{% block title %} {{ title }} {% endblock %}
+
+{% block content %}
+<div class="container" id="service-page">
+    <div class="row">
+
+{#------------------------------Renovation and Construction----------------------#}
+
+        {% include './inc/_renovation-construction.html' %}
+
+{#------------------------------Architecture and Engineering---------------------#}
+
+        {% include './inc/_architecture-engineering.html' %}
+
+{#------------------------------------Interior Design----------------------------#}
+
+        {% include './inc/_interior-design.html' %}
+
+{#------------------------------Real Estate Consulting and Relocation------------#}
+
+        {% include './inc/_real-estate-consulting.html' %}
+
+{#------------------------------Property Rentals in Barcelona--------------------#}
+
+        {% include './inc/_property-rentals.html' %}
+
+{#------------------------------------Monthly Home Rental------------------------#}
+
+        {% include './inc/_monthly-home-rental.html' %}
+
+    </div>
+
+{#-------------------------------Feedbacks---------------------------------------#}
+
+    {% include './inc/_feedbacks-about-us.html' %}
+
+    <div style="text-align: center;">
+        <a class="btn btn-nav" href="{% url 'contacts' %}">
+            {% trans "Contact" %}
+        </a>
+    </div>
+
+</div>
+{% endblock %}

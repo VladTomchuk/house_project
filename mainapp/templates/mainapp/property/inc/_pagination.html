@@ -1,0 +1,49 @@
+{% load static %}
+{% load i18n %}
+
+<ul class="pagination" style="display: flex;justify-content: center;">
+
+    {% if property_page_obj.has_previous %}
+        <li class="page-item">
+            <a class="page-link" href="?page=1">
+                 {% trans 'Principle' %}
+            </a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="?page={{ property_page_obj.previous_page_number }}" tabindex="-1">
+                &laquo;
+            </a>
+        </li>
+    {% endif %}
+
+    {% for p in property_page_obj.paginator.page_range %}
+        {% if property_page_obj.number == p %}
+            <li class="page-item active" aria-current="page">
+                <a class="page-link" href="?page={{ p }}">
+                    {{ p }}
+                    <span class="sr-only">(current)</span>
+                </a>
+            </li>
+        {% elif p > property_page_obj.number|add:-3 and p < property_page_obj.number|add:3 %}
+            <li class="page-item">
+                <a class="page-link" href="?page={{ p }}">
+                    {{ p }}
+                </a>
+            </li>
+        {% endif %}
+    {% endfor %}
+
+    {% if property_page_obj.has_next %}
+        <li class="page-item">
+            <a class="page-link" href="?page={{ property_page_obj.next_page_number }}">
+                &raquo;
+            </a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="?page={{ property_page_obj.paginator.num_pages }}">
+                {% trans 'End' %}
+            </a>
+        </li>
+    {% endif %}
+
+</ul>
